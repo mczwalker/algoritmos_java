@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Adivinhacao{
 	public static void main(String args[]) {
-            int numeroSecreto = 55;
+            int numeroSecreto = 56;
             int opcao=0;
             int qtdChutes=0;
             int chute=0;
@@ -10,16 +10,16 @@ class Adivinhacao{
             int erros=0;
             Scanner entrada = new Scanner(System.in);
                         
-            System.out.println("***JOGO ADIVINHA«√O:");
+            System.out.println("***JOGO ADIVINHA√á√ÉO:");
             System.out.println("Nivel do jogo:");
             System.out.println("1 - Nivel - 3 tentativas");
             System.out.println("2 - Nivel - 5 tentativas");
             System.out.println("3 - Nivel - 8 tentativas");
-            System.out.println("Digite a sua opÁ„o: ");            
+            System.out.println("Digite a sua op√ß√£o: ");            
             opcao = entrada.nextInt();
             
             while(opcao<1 || opcao>3){
-            	System.out.println("NÌvel inv·lido, por favor digite a sua opÁ„o novamente 1, 2 ou 3:");
+            	System.out.println("N√≠vel inv√°lido, por favor digite a sua op√ß√£o novamente 1, 2 ou 3:");
             	opcao = entrada.nextInt();
             }
             
@@ -57,7 +57,7 @@ class Adivinhacao{
                 }
             }
             if(erros==qtdChutes){
-            	System.out.println("VocÍ n„o acertou nenhum chute!");
+            	System.out.println("Voc√™ n√£o acertou nenhum chute!");
             }
             else{
             }
